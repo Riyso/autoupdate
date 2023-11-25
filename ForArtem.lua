@@ -1,5 +1,5 @@
 script_name("VC-Tools")
-script_version("1.0")
+script_version("1.5")
 
 
 local imgui = require 'mimgui'
@@ -184,7 +184,7 @@ function main()
     sampRegisterChatCommand('dosp', dosss)
 
     
-    autoupdate("https://raw.githubusercontent.com/Riyso/autoupdate/main/version.json", '['..string.upper(thisScript().name)..']: ', "https://raw.githubusercontent.com/Riyso/autoupdate/main/version.json?dl=1")
+    autoupdate("https://raw.githubusercontent.com/Riyso/autoupdate/main/version.json", '['..string.upper(thisScript().name)..']: ', "https://raw.githubusercontent.com/Riyso/autoupdate/")
 	stylemenu[0] = ini.main.stylemenu
     wait(-1)
 end
